@@ -1,0 +1,123 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   15 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c1_flightControlSystem"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c1_flightControlSystem"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_turningLeft"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "turningLeft"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_hover2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "turningLeft.hover2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Start"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Start"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Decide"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Decide"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Left"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Decide.Left"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Right"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Decide.Right"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_lineFollow"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "lineFollow"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_forward"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "forward"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_lineFollow2"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "lineFollow2"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_forward1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "forward1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_turningRight"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "turningRight"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_hover"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "turningRight.hover"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

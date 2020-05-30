@@ -1,0 +1,108 @@
+Memory from 0x8000 to 0x1f7000 locked
+Memory from 0x1ff000 to 0x204000 locked
+/tmp/.dragon-prog.lock locked.
+Setting PWM frequency: reg value 0x0
+INIT libVision with [160 x 120]
+rsedu_control(): Control processing thread id = 1084912736 
+rsedu_control(): Control thread policy = 2 pri=32
+rsedu_control(): Battery output voltage Integrated:  4.03 V - 100 percents
+rsedu_control(): used: 0, users: 0, gyrotemp 46.841766, acctemp 0.000000, presstmp 38.970001 
+rsedu_control(): Waiting for optical flow connection...
+rsedu_control(): Got optical flow connection, 60!
+create_referencevalserver_thread(): stack size before reference value thread creation 8388608 err=0
+create_referencevalserver_thread(): reference value server thread id = 1084912736 
+create_referencevalserver_thread(): reference value server  policy = 2 pri=32
+create_referencevalserver_thread(): Reference Server Thread created successfully
+create_referencevalserver_thread(): stacksize after reference thread creation 16384 
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 0.000000meters, pressure: 101954.000000pascal, gyrotemp: 46.835884celsius
+rsedu_control(): gyro x: -0.029747rad/s, y: -0.010602rad/s, z: 0.006402rad/s
+rsedu_control(): accel x: 0.488753m/s2, y: 0.099925m/s2, z: -9.524094m/s2
+rsedu_control(): Battery output voltage Integrated:  4.03V - 100 percents
+rsedu_of(): SUCCESS optical flow FIFO exists! 
+keyboardserver_thread(): Entered the Keyboard Server thread... 
+keyboardserver_thread(): Successfully created socket... 
+keyboardserver_thread(): Bind socket... 
+keyboardserver_thread(): Bind completed .. listening to the socket !
+create_image_thread(): Image thread policy = 2 and priority=10
+create_image_thread(): Image thread inherit scheduler option error=0
+create_image_thread(): value of detach status=0
+create_image_thread(): stacksize before thread creation err=0
+create_image_thread(): value of scheduler policy status=0
+create_image_thread(): value of scheduler param status=0
+create_image_thread(): Image Thread created successfully
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 1.399320meters, pressure: 101954.273438pascal, gyrotemp: 46.838825celsius
+rsedu_control(): gyro x: -0.028683rad/s, y: -0.009540rad/s, z: 0.007472rad/s
+rsedu_control(): accel x: 0.483966m/s2, y: 0.104729m/s2, z: -9.485709m/s2
+rsedu_control(): Battery output voltage Integrated:  4.03V - 100 percents
+keyboardserver_thread(): Received connection from the host! 
+keyboardserver_thread(): Successfully created GUI socket... 
+keyboardserver_thread(): Bind GUI socket...
+keyboardserver_thread(): Bind completed .. listening to the GUI socket !
+rsedu_control(): Waiting for takeoff command from host! 
+ TakeOff Sequence Initiated !! 
+The flight duration is set to Simulation Stop Time of = 100 seconds and powergain is set to = 80
+rsedu_control(): Simulink model init started! 
+rsedu_control(): Simulink model init completed! 
+rsedu_control(): Initializing Calibration Data! 
+rsedu_control(): Drone Motors Activated! 
+keyboardserver_thread(): Received connection to GUI from the host! 
+rsedu_control(): Calibrating Data . . . 
+rsedu_control(): Batterylevel: 100.000000
+rsedu_control(): Sensorcal: 0.502569 :: 0.104171 :: -9.489993 :: -0.028949 :: -0.009747 :: 0.006918 :: 101952.406250 :: 1.404359 
+ *************************************** Data_block_start *************************************************** 
+rsedu_control(): Motors Powered. Ready for Take-Off ! 
+rsedu_vision(): Entered... 
+rsedu_of(): flow: (-0.003073, -0.009088, 0.000000, 1.000000, 0.500000)
+rsedu_vision(): Exited. Time taken to process the image = 479ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 299ms
+
+ **** Sensor Values when counter = 600 **** 
+rsedu_control(): sonar altitude: 0.435601meters, pressure: 101949.515625pascal, gyrotemp: 46.944706celsius
+rsedu_control(): gyro x: -0.500916rad/s, y: 0.718583rad/s, z: 0.017099rad/s
+rsedu_control(): accel x: 0.761591m/s2, y: -0.668756m/s2, z: -8.171041m/s2
+rsedu_control(): Battery output voltage Integrated:  3.91V - 100 percents
+rsedu_control(): motor values : 365.000824 -335.040405 327.935394 -380.744537
+rsedu_vision(): Entered... 
+
+ **** Sensor Values when counter = 800 **** 
+rsedu_control(): sonar altitude: 0.804384meters, pressure: 101942.062500pascal, gyrotemp: 47.112354celsius
+rsedu_control(): gyro x: -0.637055rad/s, y: -1.099602rad/s, z: 0.005332rad/s
+rsedu_control(): accel x: -0.430282m/s2, y: -0.457369m/s2, z: -8.511703m/s2
+rsedu_control(): Battery output voltage Integrated:  3.89V - 100 percents
+rsedu_control(): motor values : 394.044586 -394.866638 324.330902 -368.406342
+
+ **** Sensor Values when counter = 1000 **** 
+rsedu_control(): sonar altitude: 0.929025meters, pressure: 101940.867188pascal, gyrotemp: 47.418236celsius
+rsedu_control(): gyro x: 0.844522rad/s, y: 0.621995rad/s, z: 0.060957rad/s
+rsedu_control(): accel x: 0.340367m/s2, y: -0.318045m/s2, z: -9.288988m/s2
+rsedu_control(): Battery output voltage Integrated:  3.87V - 100 percents
+rsedu_control(): motor values : 315.368439 -397.082306 417.308319 -362.799438
+
+ **** Sensor Values when counter = 1200 **** 
+rsedu_control(): sonar altitude: 1.026682meters, pressure: 101938.500000pascal, gyrotemp: 47.718235celsius
+rsedu_control(): gyro x: 0.414833rad/s, y: 0.888407rad/s, z: 0.016029rad/s
+rsedu_control(): accel x: -0.171804m/s2, y: -0.529433m/s2, z: -9.217017m/s2
+rsedu_control(): Battery output voltage Integrated:  3.87V - 100 percents
+rsedu_control(): motor values : 363.260284 -372.580750 362.451691 -360.957550
+rsedu_control(): Flight aborted due to error condition 69 !
+	rsedu_control(): Flight Completed after 1287 cycles ... DONE 
+RSEDU_image_processing: Average image processing time is 389ms 
+rsedu_control(): Good night! 
+ 
+Shut down and clean up
+----------------------
+Setting PWM frequency: reg value 0x0
+Setting PWM 0 0 0 0
+Flushing filesystems...
+    flush done.
+Dragon returned = 
+############################
