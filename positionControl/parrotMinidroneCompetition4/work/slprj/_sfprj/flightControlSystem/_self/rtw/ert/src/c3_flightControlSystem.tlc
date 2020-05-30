@@ -1,0 +1,123 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   15 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "is_active_c3_flightControlSystem"\
+      Description  "StateIsActive"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_c3_flightControlSystem"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_LeftPositive"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "LeftPositive"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn1"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn1"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_LastLine"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "LastLine"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_LeftWrong"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "LeftWrong"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_LeftRight"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "LeftRight"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_FirstLine"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "FirstLine"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_Turn6"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "Turn6"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "is_RightPositive"\
+      Description  "StateActiveChild"\
+      SFName       ""\
+      Path         "RightPositive"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "counter"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "counter"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "yawC"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "yawC"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "feedback"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "feedback"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "rate"\
+      Description  "ChartLocal"\
+      SFName       ""\
+      Path         "rate"\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "temporalCounter_i1"\
+      Description  "TemporalCounter"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+  }
+  %return ChartDataElements
+%endfunction
